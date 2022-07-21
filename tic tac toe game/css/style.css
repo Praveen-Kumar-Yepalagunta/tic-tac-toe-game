@@ -1,0 +1,182 @@
+body {
+    margin-top: 3rem;
+    background: #485b6e;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align:center;
+         
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+   background:url(https://images.pexels.com/photos/4298306/pexels-photo-4298306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+}
+.title{
+    margin-top:-20px;
+}
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: white;
+    margin-left:1rem;
+    margin-right:1rem;
+    justify-content: center;
+    
+            
+/* FOR GLASS STYLE */  
+background: rgba(159, 170, 198, 0.335); 
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+ 
+    
+}
+h1:hover{
+    background: rgba(159, 170, 198, 0.5); 
+
+}
+.container {
+    margin: 0 auto;
+    width: 20rem;
+    
+}
+
+#game {
+    width: 20rem;
+    height: 20rem;
+    margin-left:-1.8rem;    
+}
+
+/* CUBICAL BOX DETAILS */
+#game > li {
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    text-decoration:none;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top:20px;
+    justify-content: center;
+ 
+
+      
+/* GLASS STYLE */  
+background: rgba(136, 137, 156, 0.1);  
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+/* PLAYER X STYLE */
+#game > li.x {
+    font-size: 40px;
+    color: #ed4e6e; 
+}
+
+/* PLAYER O STYLE */
+#game > li.o {
+    font-size: 40px;
+    color: #485b6e;       
+}
+
+/* EACH CUBE HOVER STYLE */
+#game > li:hover {
+      
+ background: rgba(159, 170, 198, 0.335); 
+ 
+
+}
+
+/* EACH CUBE STYLE WHEN CLICK */
+#game > li:active {
+    width: 100px;
+    height: 100px;
+    border: 0;
+}
+
+/* GAME MESSAGES STYLE */
+#nfo {
+    text-align:center;
+    margin-top: 10px;
+  
+     
+}
+ 
+#whos-turn > span,
+#game-messages > span {
+    display: none;
+
+  
+}
+
+
+h2{
+ /* GLASS STYLE */  
+background: rgba(159, 170, 198, 0.335); 
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px ); /* WEBKIT IS A BROWSER ENGINE WHICH ENSURES FEATURES WORKING OR NOT */
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-left:1rem;
+margin-right: 1rem;
+ }
+ h2:hover{
+    background: rgba(159, 170, 198, 0.5); 
+
+ }
+
+#whos-turn.x span.x,
+#whos-turn.o span.o, 
+#game-messages.player-x-win > span.player-x-win, 
+
+#game-messages.player-o-win > span.player-o-win,
+#game-messages.draw > span.draw {
+    display: block;
+    margin-top: 10px;
+}
+
+#reset-game {
+    text-align: center;
+    border: none;
+    padding: 0.6em 1.2em;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 2px;
+        
+/* STYLE CARD */  
+background: rgba(0, 85, 255, 0.217); 
+box-shadow: 0 8px 32px 0 rgba(22, 35, 206, 0.37);
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#reset-game:hover {
+  
+   background: rgba(159, 170, 198, 0.335); 
+   color:white;
+ 
+}
+ 
+ 

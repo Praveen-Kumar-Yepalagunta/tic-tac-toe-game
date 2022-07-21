@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>TIC TAC TOE GAME</title>
+        <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+      </head>
+       
+     <!-- BODY SECTION START -->
+    <body>
+        <div class="container">
+            <h1 class="title">Tic-Tac-Toe</h1>
+            <!-- LIST AS X,Y  CO-ORDINATES IN A BOX -->
+            <ul id="game">
+                <!-- FIRST ROW -->
+                <li data-pos="0,0"></li>
+                <li data-pos="0,1"></li>
+                <li data-pos="0,2"></li>
+                <!-- SECOND ROW -->
+                <li data-pos="1,0"></li>
+                <li data-pos="1,1"></li>
+                <li data-pos="1,2"></li>
+                <!-- THIRD ROW -->
+                <li data-pos="2,0"></li>
+                <li data-pos="2,1"></li> 
+                <li data-pos="2,2"></li>
+            </ul>
+            
+            <button id="reset-game">Reset Game</button>
+            
+            <!-- GAME MESSAGE -->
+            <div id="game-messages">
+                <span class="player-x-win">Player X Wins</span>
+                <span class="player-o-win">Player O Wins</span>
+                <span class="draw">Draw Game</span>
+            </div>
+            
+            <aside id="nfo">
+                <h2>Who's Turn</h2>
+                <div id="whos-turn" class="x">
+                    <span class="x">Player X</span>
+                    <span class="o">Player O</span>
+                </div>
+                
+                <h2>Score</h2>
+                <div id="score">
+                    Player X: <span id="player-one-score">0</span> <br />
+                    Player O: <span id="player-two-score">0</span> <br />
+                </div>
+            </aside>
+        </div>
+        <!-- LOCAL JAVASCRIPT FILE -->  
+        
+        <script src="js/script.js"></script>
+    </body>
+</html>
